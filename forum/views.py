@@ -14,4 +14,6 @@ def detail_view(request, p_id):
 	context = {
 	"post":detail,
 	}
+	
 	return render (request, "detail.html", context)
+
